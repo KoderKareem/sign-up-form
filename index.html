@@ -11,8 +11,8 @@
   <!-- <div id="form-container"> -->
     <div class="left">
         <div class="bg">
-            <img src="./odin-lined.png" alt="">
-            <h1>ODIN</h1>
+            <img src="./resouces/odin-lined.png" alt="">
+            <h1> Museum</h1>
         </div>
        
     </div>
@@ -38,11 +38,11 @@
             </div>
             <div class="content">
                 <label for="phoneNO">Phone Number</label>
-                <input type="tel" name="phoneNO" id="phoneNO">
+                <input type="tel" name="phoneNO" id="phoneNO" placeholder="+23482345634"  >
             </div>
             <div class="content">
                 <label for="psw">Password <span>*</span></label>
-                <input type="password" name="psw" id="psw" required>
+                <input type="password" name="psw" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must contain at least one number, one uppercase letter, one lowercase letter, and be at least 8 characters long." required>
             </div>
             <div class="content confirm-psw">
                 <label for="confirm-psw">Confirm Password <span>*</span></label>

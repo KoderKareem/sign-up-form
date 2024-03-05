@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'Norse';
+    src: url('./Norse-Bold.otf') format('truetype');
+}
 body{
     /* width: 100vw; */
     /* height: 100vh; */
@@ -13,7 +17,7 @@ body{
 .left{
     width: 100vw;
     height: 100vh;
-    background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(./resouces/halie-west-25xggax4bSA-unsplash.jpg);
     background-size:cover;
     background-position: center;
 }
@@ -26,6 +30,7 @@ body{
     gap: 1rem;
     margin-top: 10rem;
     padding: 16px;
+    font-size: 42px;
     font-weight: bolder;
     font-family: "Norse";
     
@@ -42,7 +47,7 @@ body{
 }
 .right h2:first-child{
     padding: 32px;
-    margin-top: 60px;
+    margin-top: 35px;
     width: 700px;
     text-align: left;
 }
@@ -108,4 +113,7 @@ input:focus{
     margin-top: 5px;
     font-size: 0.9rem;
     color: red;
+}
+#phoneNO{
+
 }
