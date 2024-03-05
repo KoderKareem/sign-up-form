@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'Norse';
-    src: url('./Norse-Bold.otf') format('truetype');
+    src: url('./resouces/Norse-Bold.otf') format('truetype');
 }
 body{
     /* width: 100vw; */
