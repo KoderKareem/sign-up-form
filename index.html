@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up-form</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+  <!-- <div id="form-container"> -->
+    <div class="left">
+        <div class="bg">
+            <img src="./odin-lined.png" alt="">
+            <h1>ODIN</h1>
+        </div>
+       
+    </div>
+    <div class="right">
+        <h2>Welcome to Our Museum - Where History Comes to Life and Stories Unfold.</h2>
+        <h2>Register for a New Account</h2>
+        <h5 class="rq">Fields marked with * are required.</h5>
+        <form action="#">
+          
+            <div class="input-container">
+         
+            <div class="content">
+                <label for="firstName">First Name <span>*</span></label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="content">
+                <label for="lastName">Last Name <span>*</span></label>
+                <input type="text" name="lastName" id="lastName" required>
+            </div>
+            <div class="content">
+                <label for="email">Email <span>*</span></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="content">
+                <label for="phoneNO">Phone Number</label>
+                <input type="tel" name="phoneNO" id="phoneNO">
+            </div>
+            <div class="content">
+                <label for="psw">Password <span>*</span></label>
+                <input type="password" name="psw" id="psw" required>
+            </div>
+            <div class="content confirm-psw">
+                <label for="confirm-psw">Confirm Password <span>*</span></label>
+                <input type="password" name="confirm-psw" id="confirm-psw" required>
+                <h6 class="incorrect-psw"></h6>
+            </div>
+           
+        </div>
+        <button class="create-acc">Create Account</button>
+        <h5 class="login">Already have an account? <a href="#">Login</a></h5>
+        </form>
+    </div>
+  <!-- </div> -->
+   
+</body>
+</html>
