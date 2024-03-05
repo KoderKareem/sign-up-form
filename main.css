@@ -109,11 +109,8 @@ input:valid{
 input:focus{
     box-shadow: 0 0 10px 0 rgb(21, 51, 2);
 }
-.incorrect-psw{
+.error{
     margin-top: 5px;
     font-size: 0.9rem;
     color: red;
-}
-#phoneNO{
-
 }
